@@ -18,7 +18,7 @@ https://coolors.co/5d8fd0-c9e265-ff914d-ffde5a-000000-ffffff
 
 /*aqui editaremos la parte del navegador*/
 nav {
-    background-color: #5D8FD0;
+    background-color: #ffffff;
     line-height: 3em;
     text-align: center;
     margin: 0 auto;
@@ -36,19 +36,26 @@ nav {
     padding: 10px;
   }
   nav a:link, nav a:visited {
-    color: #ffffff;
+    color: #000000;
   }
 
 /*En este ejemplo, agregaremos un selector para una pseudoclase. Las pseudoclases requieren cierta interacción por parte del usuario para que se aplique el estilo. Por ejemplo, con la pseudoclase :hover los estilos solo se aplicarán si el usuario pasa el puntero del mouse sobre el elemento.
 Cambiemos el fondo y el color de fuente de los enlaces de nuestro menú cuando el usuario pasa el cursor sobre ellos. Esta será una regla nueva, no una adición a ninguna regla existente.*/
   nav a:hover {
-    color: #5D8FD0;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #5D8FD0;
   }
 
 /* esta es como el slogan de mi sitio web*/
 .mensaje_inspirador {
     font-size: 1.5em;
+    line-height: 1.5em;
+    margin: 50px auto;
+    text-align: center;
+}
+
+/* esto es para la imagen de banner*/
+.banner {
     line-height: 1.5em;
     margin: 50px auto;
     text-align: center;
