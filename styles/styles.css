@@ -24,12 +24,21 @@ nav, footer {
     text-align: center;
 }
 
+/*En este ejemplo, agregaremos un selector para una pseudoclase. Las pseudoclases requieren cierta interacción por parte del usuario para que se aplique el estilo. Por ejemplo, con la pseudoclase :hover los estilos solo se aplicarán si el usuario pasa el puntero del mouse sobre el elemento.
+Cambiemos el fondo y el color de fuente de los enlaces de nuestro menú cuando el usuario pasa el cursor sobre ellos. Esta será una regla nueva, no una adición a ninguna regla existente.*/
+a:hover {
+    background-color: white;
+    color: #5D8FD0;
+}
+
+/* esta es como el slogan de mi sitio web*/
 .main-para {
     font-size: 1.5em;
     line-height: 1.5em;
     margin: 50px auto;
     text-align: center;
 }
+
 img {
     width: 80%;
     display: block;
@@ -41,12 +50,7 @@ p {
 a {
     font-size: 1.5em;
 }
-/*
-Esto es para poner una linea azul en cada elemento
-* {
-    border: 2px solid blue;
-}
-*/
+
 h1 {
     text-align: center;
 }
@@ -57,12 +61,10 @@ footer p {
     font-size: 40px;
     margin: 20px auto;
 }
-/*En este ejemplo, agregaremos un selector para una pseudoclase.
 
-Las pseudoclases requieren cierta interacción por parte del usuario para que se aplique el estilo. Por ejemplo, con la pseudoclase :hover los estilos solo se aplicarán si el usuario pasa el puntero del mouse sobre el elemento.
-Cambiemos el fondo y el color de fuente de los enlaces de nuestro menú cuando el usuario pasa el cursor sobre ellos. Esta será una regla nueva, no una adición a ninguna regla existente.*/
-a:hover {
-    background-color: white;
-    color: #5D8FD0;
+/*
+Esto es para poner una linea azul en cada elemento
+* {
+    border: 2px solid blue;
 }
-
+*/
