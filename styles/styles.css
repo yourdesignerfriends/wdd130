@@ -16,20 +16,34 @@ https://coolors.co/5d8fd0-c9e265-ff914d-ffde5a-000000-ffffff
     border-radius:50%;
 }
 
-/*si queremos tener un color de fondo azul marino y un color de fuente blanco tanto para nuestra navegación como para nuestro encabezado, podemos usar una coma entre ellos para decir que podemos aplicar la regla a ambos selectores.*/
-nav, footer {
+/*aqui editaremos la parte del navegador*/
+nav {
     background-color: #5D8FD0;
-    color: white;
-    padding: 10px;
+    line-height: 3em;
     text-align: center;
-}
+    margin: 0 auto;
+    font-size: 1em;
+  }
+  nav  {
+    list-style-type: none;
+    display: flex;
+  }
+  nav a {
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
+  }
+  nav a:link, nav a:visited {
+    color: #ffffff;
+  }
 
 /*En este ejemplo, agregaremos un selector para una pseudoclase. Las pseudoclases requieren cierta interacción por parte del usuario para que se aplique el estilo. Por ejemplo, con la pseudoclase :hover los estilos solo se aplicarán si el usuario pasa el puntero del mouse sobre el elemento.
 Cambiemos el fondo y el color de fuente de los enlaces de nuestro menú cuando el usuario pasa el cursor sobre ellos. Esta será una regla nueva, no una adición a ninguna regla existente.*/
-a:hover {
-    background-color: white;
+  nav a:hover {
     color: #5D8FD0;
-}
+    background-color: #ffffff;
+  }
 
 /* esta es como el slogan de mi sitio web*/
 .main-para {
@@ -58,9 +72,23 @@ h1 {
 /*Tenemos dos párrafos en nuestro HTML. Pero queremos apuntar sólo al párrafo que está dentro del pie de página, no al párrafo principal. Queremos darle un tamaño de fuente diferente. Si apuntamos al elemento p, ambos párrafos cambiarán. También podríamos darle a uno de ellos una clase o ID y apuntar a eso, pero usemos un selector de descendientes en su lugar.
 Podemos escribir nuestro selector con el elemento padre primero y luego el hijo (o descendiente a continuación).*/
 footer p {
-    font-size: 40px;
+    font-size: 1.5em;
     margin: 20px auto;
+    background-color: #5D8FD0;
+    color: white;
+    padding: 10px;
+    text-align: center;
 }
+
+
+  /*si queremos tener un color de fondo azul marino y un color de fuente blanco tanto para nuestra navegación como para nuestro encabezado, podemos usar una coma entre ellos para decir que podemos aplicar la regla a ambos selectores.
+nav, footer {
+    background-color: #5D8FD0;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+*/
 
 /*
 Esto es para poner una linea azul en cada elemento
