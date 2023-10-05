@@ -1,8 +1,70 @@
+/*los colores de la pagina son estos:
+https://coolors.co/5d8fd0-c9e265-ff914d-ffde5a-000000-ffffff
+*/
 .main-para {
     font-size: 1.5em;
     line-height: 1.5em;
+    margin: 50px auto;
+    text-align: center;
 }
+/* Repasar porque escribi esto
 #active {
-    background-color: #3FBCAE;
-    color: #084C61;
+    background-color: steelblue;
+    color: white;
+}
+*/
+img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+p {
+    width: 100%;
+}
+a {
+    font-size: 1.5em;
+}
+/*
+Esto es para poner una linea azul en cada elemento
+* {
+    border: 2px solid blue;
+}
+*/
+h1 {
+    text-align: center;
+}
+nav, footer {
+    text-align: center;
+}
+/*si queremos tener un color de fondo azul marino y un color de fuente blanco tanto para nuestra navegación como para nuestro encabezado, podemos usar una coma entre ellos para decir que podemos aplicar la regla a ambos selectores.*/
+nav, footer {
+    background-color: #5D8FD0;
+    color: white;
+    padding: 10px;
+}
+/*Tenemos dos párrafos en nuestro HTML. Pero queremos apuntar sólo al párrafo que está dentro del pie de página, no al párrafo principal. Queremos darle un tamaño de fuente diferente. Si apuntamos al elemento p, ambos párrafos cambiarán. También podríamos darle a uno de ellos una clase o ID y apuntar a eso, pero usemos un selector de descendientes en su lugar.
+Podemos escribir nuestro selector con el elemento padre primero y luego el hijo (o descendiente a continuación).*/
+footer p {
+    font-size: 40px;
+    margin: 20px auto;
+}
+/*En este ejemplo, agregaremos un selector para una pseudoclase.
+
+Las pseudoclases requieren cierta interacción por parte del usuario para que se aplique el estilo. Por ejemplo, con la pseudoclase :hover los estilos solo se aplicarán si el usuario pasa el puntero del mouse sobre el elemento.
+Cambiemos el fondo y el color de fuente de los enlaces de nuestro menú cuando el usuario pasa el cursor sobre ellos. Esta será una regla nueva, no una adición a ninguna regla existente.*/
+a:hover {
+    background-color: white;
+    color: #5D8FD0;
+}
+#logobox {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    background-size: 100% auto;
+    padding: 30px;
+}
+.imagenredonda {
+    width:15%;
+    height:15%;
+    border-radius:50%;
 }
