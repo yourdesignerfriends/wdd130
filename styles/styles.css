@@ -23,6 +23,7 @@ nav {
     text-align: center;
     margin: 0 auto;
     font-size: 1em;
+    width: 100%;
   }
   nav  {
     list-style-type: none;
