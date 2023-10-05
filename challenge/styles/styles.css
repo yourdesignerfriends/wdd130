@@ -1,0 +1,47 @@
+#titulo{
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    font-size: 1.5em;
+}
+h1 {
+    color: #ffffff;
+}
+h1:hover {
+    color: #000000;
+  }
+
+.cita{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.5em;
+    width: 100%;
+    display: block;
+    color: #ffffff;
+}
+
+#foto {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    background-size: 100% auto;
+    padding: 30px;
+}
+.imagen {
+    width:30%;
+    height:30%;
+    border-radius:50%;
+}
+
+.mensaje {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width:15%;
+    height:15%;
+    color: #ffffff;
+    font-size: 1.5em;
+}
+body {
+    background: #FBA6C9;
+}
