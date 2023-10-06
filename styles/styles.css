@@ -4,8 +4,8 @@ https://coolors.co/5d8fd0-c9e265-ff914d-ffde5a-000000-ffffff
 
 /* Esta es la primera parte donde esta la foto mia*/
 .imagenredonda {
-    width: 30em;
-    height: 30em;
+    width: 15em;
+    height: 15em;
     border-radius:50%;
     margin: 0 auto;
     text-align: center;
