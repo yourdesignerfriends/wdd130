@@ -3,22 +3,17 @@ https://coolors.co/5d8fd0-c9e265-ff914d-ffde5a-000000-ffffff
 */
 
 /* Esta es la primera parte donde esta la foto mia*/
-#logobox {
+.imagenredonda {
+    width: 30em;
+    height: 30em;
+    border-radius:50%;
     margin: 0 auto;
     text-align: center;
-    display: block;
-    background-size: 100% auto;
     padding: 30px;
-}
-.imagenredonda {
-    width:15%;
-    height:15%;
-    border-radius:50%;
 }
 
 /*aqui editaremos la parte del navegador*/
 #navegacion {
-    display: block;
     text-align: center;
     margin: 0 auto;
 }
