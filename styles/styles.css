@@ -13,27 +13,19 @@ https://coolors.co/5d8fd0-c9e265-ff914d-ffde5a-000000-ffffff
 }
 
 /*aqui editaremos la parte del navegador*/
-#navegacion {
-    text-align: center;
-    margin: 0 auto;
-}
+/*esto es para hacer una separacion entre los elementos y poner el fondo blanco*/
 nav {
-    background-color: #ffffff;
-    line-height: 3em;
     text-align: center;
     margin: 0 auto;
-    font-size: 0.9em;
-    width: 100%;
+    line-height: 3em;
   }
-  nav  {
-    list-style-type: none;
-    display: flex;
-  }
+
+  /*esto es para quitar la linea que aparece debajo de los enlaces y hacer una separacion mas equitativa entre ellos*/
   nav a {
-    padding:1em;
-    min-width: 120px;
     text-decoration: none;
     padding: 10px;
+
+  /*esto es para que los elementos cambien de color al pasar el cursor sobre ellos*/
   }
   nav a:link, nav a:visited {
     color: #000000;
