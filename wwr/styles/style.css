@@ -1,10 +1,10 @@
 
-/*My colors palett
+/* My colors palett 🥰
 azul: #2D7FC9;
 negro: #000000;
 naranja: #EE3224;
 blaco: #ffffff;*/
-/*esto es para alinear el div donde va a estar guardado todo el body*/
+/* Esto es para alinear el div donde va a estar guardado todo el body*/
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -15,15 +15,15 @@ body {
 header {
     background-color: #ffffff;
 }
-/*algunos ajustes en la navegacion*/
+/* Algunos ajustes en la navegacion*/
 nav a, #hero-msg h1, #hero-msg, h4, .button-box, main section {
     text-align: center;
 }
-/*algunos ajustes para el logo*/
+/* Algunos ajustes para el logo*/
 .logo {
     width: 80px;
 }
-/* ajustes de la barra de navegacion */
+/* Ajustes de la barra de navegacion */
 nav a:hover {
     background-color: #EE3224;
     color: #ffffff;
@@ -34,11 +34,11 @@ nav a {
     color: #EE3224;
     text-decoration: none;
 }
-/*ajustes para la imagen hero*/
+/* Ajustes para la imagen hero*/
 #hero-img {
     width: 100%;
 }
-/*ajustes del titulo despues de la imagen hero*/
+/* Ajustes del titulo despues de la imagen hero*/
 .home-title {
     background-color: #2D7FC9;
     color: #ffffff; 
@@ -46,7 +46,7 @@ nav a {
 h4 {
     color: #000000;
 }
-/*esta es una caja que va adentro de la imagen*/
+/* Esta es una caja que va adentro de la imagen*/
 #background {
     height: 725px;
     background-color: #2D7FC9;
@@ -54,7 +54,7 @@ h4 {
 .icon {
     width: 80px;
 }
-/*color de los botones*/
+/* Color de los botones*/
 .book, .join {
     background-color: #2D7FC9;
     color: #ffffff;
@@ -65,8 +65,7 @@ h4 {
     background-color: #ffffff;
     color: #2D7FC9;
 }
-
-/*esto es el parrafo que esta coloreado*/
+/* Esto es el parrafo que esta coloreado*/
 .msg {
     background-color: #2D7FC9; 
 }
@@ -78,6 +77,7 @@ h4 {
     background-color: #2D7FC9; 
     color: #ffffff;
 }
+/* Ajustes del footer*/
 footer {
     background-color: #2D7FC9;
     color: #ffffff;
