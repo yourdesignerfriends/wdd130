@@ -13,7 +13,7 @@ body {
     background-color: #ffffff; 
 }
 header {
-    background-color: #ffffff;
+    background-color: #2D7FC9;
 }
 /* Algunos ajustes en la navegacion*/
 nav a, #hero-msg h1, #hero-msg, h4, .button-box, main section {
@@ -25,13 +25,13 @@ nav a, #hero-msg h1, #hero-msg, h4, .button-box, main section {
 }
 /* Ajustes de la barra de navegacion */
 nav a:hover {
-    background-color: #EE3224;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #2D7FC9;
 }
 nav a {
-    background-color: #ffffff;
+    background-color: #2D7FC9;
     text-align: center;
-    color: #EE3224;
+    color: #ffffff;
     text-decoration: none;
 }
 /* Ajustes para la imagen hero*/
@@ -46,10 +46,10 @@ nav a {
 h4 {
     color: #000000;
 }
-/* Esta es una caja que va adentro de la imagen*/
+/* Esta es una caja que contine la imagen*/
 #background {
     height: 725px;
-    background-color: #2D7FC9;
+    background-color: #EE3224;
 }
 .icon {
     width: 80px;
