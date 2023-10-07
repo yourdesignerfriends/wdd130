@@ -13,7 +13,7 @@ body {
     background-color: #ffffff; 
 }
 header {
-    background-color: #2D7FC9;
+    background-color: #ffffff;
 }
 /* Algunos ajustes en la navegacion*/
 nav a, #hero-msg h1, #hero-msg, h4, .button-box, main section {
@@ -25,13 +25,13 @@ nav a, #hero-msg h1, #hero-msg, h4, .button-box, main section {
 }
 /* Ajustes de la barra de navegacion */
 nav a:hover {
-    background-color: #ffffff;
-    color: #2D7FC9;
+    background-color: #EE3224;
+    color: #ffffff;
 }
 nav a {
-    background-color: #2D7FC9;
+    background-color: #ffffff;
     text-align: center;
-    color: #ffffff;
+    color: #EE3224;
     text-decoration: none;
 }
 /* Ajustes para la imagen hero*/
@@ -79,16 +79,16 @@ h4 {
 }
 /* Ajustes del footer*/
 footer {
-    background-color: #2D7FC9;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #EE3224;
 }
 footer a {
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     text-decoration: none;
 }
 footer a:hover {
-    color: #000000;
+    color: #EE3224;
 }
 footer p {
     font-size: 1.2em;
