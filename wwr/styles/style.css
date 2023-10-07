@@ -49,7 +49,8 @@ h4 {
 /* Esta es una caja que contine la imagen*/
 #background {
     height: 725px;
-    background-color: #EE3224;
+    background-color: #EE3224; /* For browsers that do not support gradients */
+    background-image: linear-gradient(90deg, #EE3224, #ffffff);
 }
 .icon {
     width: 80px;
