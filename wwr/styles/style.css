@@ -1,104 +1,98 @@
 
-/* change the values below to your colors from your palett
+/*My colors palett
 azul: #2D7FC9;
 negro: #000000;
 naranja: #EE3224;
-blaco: #ffffff;
-*/
-
-/*ajustes de alineacion*/
+blaco: #ffffff;*/
+/*esto es para alinear el div donde va a estar guardado todo el body*/
 #content {
     max-width: 1600px;
     margin: 0 auto;
   }
-nav a, #hero-msg h1, #hero-msg, h4, .button-box, main section {
-    text-align: center;
-}
-
-/*esta es la caja*/
-#background {
-    height: 725px;
-    background-color: #EE3224;
-}
-
-
 body {
     background-color: #ffffff; 
 }
-
 header {
     background-color: #ffffff;
 }
-
-/* Navigation Color */
+/*algunos ajustes en la navegacion*/
+nav a, #hero-msg h1, #hero-msg, h4, .button-box, main section {
+    text-align: center;
+}
+/*algunos ajustes para el logo*/
+.logo {
+    width: 80px;
+}
+/* ajustes de la barra de navegacion */
 nav a:hover {
-    background-color: #ffffff;
-    color: #EE3224;
+    background-color: #EE3224;
+    color: #ffffff;
 }
 nav a {
-    background-color: #EE3224;
+    background-color: #ffffff;
     text-align: center;
-    color: #ffffff;
+    color: #EE3224;
     text-decoration: none;
 }
+/*ajustes para la imagen hero*/
+#hero-img {
+    width: 100%;
+}
+/*ajustes del titulo despues de la imagen hero*/
+.home-title {
+    background-color: #2D7FC9;
+    color: #ffffff; 
+}
+h4 {
+    color: #000000;
+}
+/*esta es una caja que va adentro de la imagen*/
+#background {
+    height: 725px;
+    background-color: #2D7FC9;
+}
+.icon {
+    width: 80px;
+}
+/*color de los botones*/
 .book, .join {
-    background-color: #EE3224;
+    background-color: #2D7FC9;
     color: #ffffff;
     text-align: center;
     text-decoration: none;
 }
 .book:hover, .join:hover {
     background-color: #ffffff;
-    color: #EE3224;
+    color: #2D7FC9;
 }
 
-
+/*esto es el parrafo que esta coloreado*/
 .msg {
     background-color: #2D7FC9; 
 }
 .msg h2 {
     background-color: #2D7FC9;
+    color: #ffffff;
 }
 .msg p {
     background-color: #2D7FC9; 
+    color: #ffffff;
 }
-h4 {
-    color: #000000;
-}
-
 footer {
-    background-color:rgba(20,30,13, .7);
-    color: #000000;
+    background-color: #2D7FC9;
+    color: #ffffff;
 }
-
-.home-title {
-    background-color: #fcfbfb; 
-}
-
-
 footer a {
-    color: #000000;
+    color: #ffffff;
     text-align: center;
     text-decoration: none;
 }
 footer a:hover {
     color: #000000;
 }
-
-.icon {
-    width: 80px;
-}
-.logo {
-    width: 80px;
-}
-#hero-img {
-    width: 100%;
-} 
-
 footer p {
     font-size: 1.2em;
 }
-
 footer p a:hover {
     text-decoration: underline;
-} 
+}
