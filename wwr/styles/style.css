@@ -15,8 +15,17 @@ body {
 header {
     background-color: #ffffff;
 }
-/* Algunos ajustes en la navegacion*/
-nav a, #hero-msg h1, #hero-msg, h4, .button-box, main section {
+/* Element Alignment */
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+nav a {
+    text-align: center;
+}
+.button-box {
+    text-align: center;
+}
+main section {
     text-align: center;
 }
 /* Algunos ajustes para el logo*/
