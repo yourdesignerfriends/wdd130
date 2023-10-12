@@ -1,0 +1,16 @@
+footer {
+    background-color: gray;
+}
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+#imagen-cabecera {
+    width: 100%;
+}
+#imagenredonda {
+    border-radius:50%;
+    margin: 30px auto;
+    padding: 40px;
+    border: 5px solid darkslategrey;
+}

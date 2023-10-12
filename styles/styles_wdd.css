@@ -1,15 +1,18 @@
 /*los colores de la pagina son estos:
 https://coolors.co/5d8fd0-c9e265-ff914d-ffde5a-000000-ffffff
 */
-
+body {
+  margin: 0
+}
 /* Esta es la primera parte donde esta la foto mia*/
-.imagenredonda {
+#imagenredonda {
     width: 15em;
     height: 15em;
     border-radius:50%;
     margin: 0 auto;
     text-align: center;
-    padding: 30px;
+    padding: 10px;
+    border: 4px solid #5D8FD0;
 }
 
 /*aqui editaremos la parte del navegador*/
@@ -18,25 +21,31 @@ nav {
     text-align: center;
     margin: 0 auto;
     line-height: 3em;
+    background-color: #5D8FD0;
+    padding: 25px;
   }
+  a {
+    font-size: 1.5em;
+    color: white;
+    padding: 25px;
+}
 
-  /*esto es para quitar la linea que aparece debajo de los enlaces y hacer una separacion mas equitativa entre ellos*/
-  nav a {
-    text-decoration: none;
-    padding: 10px;
-
-  /*esto es para que los elementos cambien de color al pasar el cursor sobre ellos*/
-  }
-  nav a:link, nav a:visited {
-    color: #000000;
-  }
+/*esto es para quitar la linea que aparece debajo de los enlaces y hacer una separacion mas equitativa entre ellos*/
+nav a {
+  text-decoration: none;
+  padding: 10px;
+}
+/*esto es para que los elementos cambien de color al pasar el cursor sobre ellos*/
+nav a:link, nav a:visited {
+  color: #000000;
+}
 
 /*En este ejemplo, agregaremos un selector para una pseudoclase. Las pseudoclases requieren cierta interacción por parte del usuario para que se aplique el estilo. Por ejemplo, con la pseudoclase :hover los estilos solo se aplicarán si el usuario pasa el puntero del mouse sobre el elemento.
 Cambiemos el fondo y el color de fuente de los enlaces de nuestro menú cuando el usuario pasa el cursor sobre ellos. Esta será una regla nueva, no una adición a ninguna regla existente.*/
-  nav a:hover {
-    color: #ffffff;
-    background-color: #5D8FD0;
-  }
+nav a:hover {
+  color: #ffffff;
+  background-color: #5D8FD0;
+}
 
 /* esta es como el slogan de mi sitio web*/
 .mensaje_inspirador {
@@ -61,12 +70,11 @@ img {
 p {
     width: 100%;
 }
-a {
-    font-size: 1.5em;
-}
 
 h1 {
     text-align: center;
+    margin: 50px 0;
+
 }
 
 /*Tenemos dos párrafos en nuestro HTML. Pero queremos apuntar sólo al párrafo que está dentro del pie de página, no al párrafo principal. Queremos darle un tamaño de fuente diferente. Si apuntamos al elemento p, ambos párrafos cambiarán. También podríamos darle a uno de ellos una clase o ID y apuntar a eso, pero usemos un selector de descendientes en su lugar.
