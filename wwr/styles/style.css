@@ -62,10 +62,10 @@ nav a {
     width: 100%;
 }
 /* Ajustes del titulo despues de la imagen hero*/
-#home-title {
+.home-title {
     background-color: #2D7FC9;
     color: #ffffff;
-    font-size: 2m;
+    font-size: 2em;
     margin-top: 10px;
 }
 /* Esta es una caja que contine la imagen*/
