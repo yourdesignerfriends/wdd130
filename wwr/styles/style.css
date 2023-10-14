@@ -4,13 +4,32 @@ azul: #2D7FC9;
 negro: #000000;
 naranja: #EE3224;
 blaco: #ffffff;*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@700&display=swap');
+:root {
+--heading-font: Oswald, Helvetica, sans-serif;
+--paragraph-font: Open sans, Helvetica, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+}
+p {
+    font-family: var(--paragraph-font);
+}
+h2 {
+    margin: 0;
+}
+h4 {
+    color: #000000;
+}
 /* Esto es para alinear el div donde va a estar guardado todo el body*/
 #content {
     max-width: 1600px;
     margin: 0 auto;
   }
 body {
-    background-color: #ffffff; 
+    background-color: #ffffff;
+    font-size: 22px;
+    margin: 0;
 }
 header {
     background-color: #ffffff;
@@ -26,8 +45,8 @@ main section {
     text-align: center;
 }
 /* Algunos ajustes para el logo*/
-.logo {
-    width: 80px;
+#logo_link {   
+    padding-top: 5px;
 }
 /* Ajustes de la barra de navegacion */
 nav a:hover {
@@ -39,6 +58,8 @@ nav a {
     text-align: center;
     color: #EE3224;
     text-decoration: none;
+    font-family: var(--heading-font);
+    padding: 35px;
 }
 /* Ajustes para la imagen hero*/
 #hero-img {
@@ -47,10 +68,9 @@ nav a {
 /* Ajustes del titulo despues de la imagen hero*/
 .home-title {
     background-color: #2D7FC9;
-    color: #ffffff; 
-}
-h4 {
-    color: #000000;
+    color: #ffffff;
+    font-size: 2m;
+    margin-top: 10px;
 }
 /* Esta es una caja que contine la imagen*/
 #background {
@@ -60,6 +80,7 @@ h4 {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 /* Color de los botones*/
 .book, .join {
@@ -67,14 +88,21 @@ h4 {
     color: #ffffff;
     text-align: center;
     text-decoration: none;
+    font-family: var(--heading-font);
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
 }
 .book:hover, .join:hover {
     background-color: #ffffff;
     color: #2D7FC9;
+    border-radius: 5px;
 }
 /* Esto es el parrafo que esta coloreado*/
 .msg {
-    background-color: #2D7FC9; 
+    background-color: #2D7FC9;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     background-color: #2D7FC9;
@@ -83,16 +111,20 @@ h4 {
 .msg p {
     background-color: #2D7FC9; 
     color: #ffffff;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 /* Ajustes del footer*/
 footer {
     background-color: #ffffff;
     color: #EE3224;
+    padding: 25px 50px;
 }
 footer a {
     color: #000000;
     text-align: center;
     text-decoration: none;
+    margin-top: 200px;
 }
 footer a:hover {
     color: #EE3224;
@@ -103,3 +135,15 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }
+footer .social img {
+    padding-top: 15px; 
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #EE3224
+}
+main section img {
+    box-sizing: border-box;
+} 
