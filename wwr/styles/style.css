@@ -6,10 +6,10 @@ naranja: #EE3224;
 blaco: #ffffff;*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@700&display=swap');
 h1, h2, h3, h4, h5, h6 {
-    font-family: Oswald, Helvetica, sans-serif;
+    font-family: "Oswald", Helvetica, sans-serif;
 }
 p {
-    font-family: Open sans, Helvetica, sans-serif;
+    font-family: "Open sans", Helvetica, sans-serif;
 }
 h2 {
     margin: 0;
@@ -54,7 +54,7 @@ nav a {
     text-align: center;
     color: #EE3224;
     text-decoration: none;
-    font-family: Oswald, Helvetica, sans-serif;
+    font-family: "Oswald", Helvetica, sans-serif;
     padding: 35px;
 }
 /* Ajustes para la imagen hero*/
