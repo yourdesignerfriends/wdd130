@@ -5,15 +5,11 @@ negro: #000000;
 naranja: #EE3224;
 blaco: #ffffff;*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@700&display=swap');
-:root {
---heading-font: Oswald, Helvetica, sans-serif;
---paragraph-font: Open sans, Helvetica, sans-serif;
-}
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
+    font-family: Oswald, Helvetica, sans-serif;
 }
 p {
-    font-family: var(--paragraph-font);
+    font-family: Open sans, Helvetica, sans-serif;
 }
 h2 {
     margin: 0;
@@ -58,7 +54,7 @@ nav a {
     text-align: center;
     color: #EE3224;
     text-decoration: none;
-    font-family: var(--heading-font);
+    font-family: Oswald, Helvetica, sans-serif;
     padding: 35px;
 }
 /* Ajustes para la imagen hero*/
@@ -66,7 +62,7 @@ nav a {
     width: 100%;
 }
 /* Ajustes del titulo despues de la imagen hero*/
-.home-title {
+#home-title {
     background-color: #2D7FC9;
     color: #ffffff;
     font-size: 2m;
@@ -89,7 +85,7 @@ nav a {
     color: #ffffff;
     text-align: center;
     text-decoration: none;
-    font-family: var(--heading-font);
+    font-family: Oswald, Helvetica, sans-serif;
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
