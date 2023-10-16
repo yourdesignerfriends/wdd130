@@ -1,0 +1,33 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1f 1f;
+    grid-gap: 10px;
+    background-color: grey;
+  }  
+.imagen {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  padding: 10px;
+  background-color: white;
+}
+.titulo {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  z-index: 1;
+  align-self: center;
+  text-align: center;
+  padding: 10px;
+  font-size: 5em;
+  letter-spacing: 30px;
+}
+.parrafo {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  z-index: 1;
+  align-self: center;
+  text-align: center;
+  padding: 10px;
+  font-size: 5em;
+  letter-spacing: 25px;
+  color: brown;
+}
