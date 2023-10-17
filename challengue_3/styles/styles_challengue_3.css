@@ -1,3 +1,7 @@
+body {
+  max-width: 1600px;
+  margin: 0 auto;
+}
 .grid-container {
     display: grid;
     grid-template-columns: 1f 1f;
