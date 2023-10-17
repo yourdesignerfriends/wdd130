@@ -54,3 +54,14 @@ section {
   text-align: center;
   background-color: var(--accent2-color);
 }
+nav a:hover {
+  color: #ffffff;
+  background-color: #000000;
+}
+nav a {
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
