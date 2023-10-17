@@ -117,12 +117,12 @@ footer {
     background-color: #ffffff;
     color: #EE3224;
     padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color: #000000;
     text-align: center;
     text-decoration: none;
-    margin-top: 200px;
 }
 footer a:hover {
     color: #EE3224;
