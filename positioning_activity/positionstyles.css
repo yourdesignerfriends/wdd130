@@ -95,21 +95,21 @@
   display: grid;
   grid-template-columns: repeat(2,1fr);
   grid-template-rows: repeat(3,1fr);
-  justify-items: center;
 }
 .red4 {
   width: 300px; 
   height: 400px; 
   background-color: red;
   grid-column: 1/2;
-  grid-row: 1/4; 
+  grid-row: 1/4;
+  justify-self:right;
 } 
 .green4 {
   width: 300px; 
   height: 133.33px; 
   background-color: green;
   grid-column: 2/3;
-  grid-row: 1/2; 
+  grid-row: 1/2;
 } 
 .yellow4 {
   width: 300px; 
