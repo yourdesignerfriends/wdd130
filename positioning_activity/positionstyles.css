@@ -115,7 +115,7 @@
   height: 133.33px; 
   background-color: gold;
   grid-column: 2/3;
-  grid-row: 2/3; 
+  grid-row: 2/3;
 } 
 .blue4 {
   width: 100%; 
@@ -127,7 +127,7 @@
 /* Activity 5 styles */ 
 .content5 {
   /* This is the parent of the activity 5 boxes. */
-  display:flexbox;
+  display: flexbox;
   height: 400px;
 }
 .red5 { 
@@ -145,6 +145,7 @@
   width: 100%; 
   height: 200px;
   background-color: gold;
+  text-wrap: balance;
 } 
 .blue5 {
   width: 100%; 
