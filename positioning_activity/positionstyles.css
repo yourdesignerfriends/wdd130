@@ -33,31 +33,27 @@
 .content2 {
   /* This is the parent of the activity 2 boxes. */
   display: grid;
-  height: 400px;
+  height: 300px;
   grid-template-columns: repeat(5,50px);
 }
 .red2 {
   width: 100px; 
   height: 100px; 
   background-color: red;
-  position: relative;
-  top: 50px;
-  left: 25px;
 } 
 .green2 { 
   width: 100px; 
   height: 100px; 
   background-color: green;
   position: relative;
-  top: 100px;
-  left: 25px;
+  top: 50px;
 } 
 .yellow2 {
   width: 100px; 
   height: 100px; 
   background-color: gold;
   position: relative;
-  top: 150px;
+  top: 100px;
   left: 25px;
 } 
 .blue2 {
@@ -65,7 +61,7 @@
   height: 100px; 
   background-color: blue;
   position: relative;
-  top: 200px;
+  top: 150px;
   left: 25px;
 } 
 /* Activity 3 styles */ 
