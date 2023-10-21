@@ -49,7 +49,7 @@ p {
   color: var(--accent1-color);
   padding: 1em;
 }
-section {
+div {
   padding: 1em;
   text-align: center;
   background-color: var(--accent2-color);
