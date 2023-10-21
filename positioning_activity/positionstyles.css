@@ -80,15 +80,15 @@
   width: 90%; 
   height: 200px; 
   background-color: green;
-  grid-template-columns: 2/2;
-  grid-template-rows: 2/3;
+  grid-column: 1/2;
+  grid-row: 2/3;
 } 
 .yellow3 {
   width: 90%; 
   height: 200px; 
   background-color: gold;
-  grid-template-columns: 2/3;
-  grid-template-rows: 2/3;
+  grid-column: 2/3;
+  grid-row: 2/3;
   justify-self: right;
 } 
 .blue3 {
@@ -136,7 +136,6 @@
 /* Activity 5 styles */ 
 .content5 {
   /* This is the parent of the activity 5 boxes. */
-  display:flexbox;
   height: 500px;
 }
 .red5 { 
