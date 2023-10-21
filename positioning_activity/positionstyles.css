@@ -183,26 +183,30 @@
   top: 0; 
 } 
 .green6 {
-  width: 200px; 
-  height: 200px; 
+  width: 100px; 
+  height: 100px; 
   background-color: green;
   position: relative;
-  top: 50px;
-  right: 150px;
-} 
+  top: 200px;
+  right: 200px;
+  z-index: 1;
+}
 .yellow6 {
   width: 100px; 
   height: 200px; 
   background-color: gold;
   position: relative;
   top: 100px;
-  right: 200px;
-} 
+  right: 100px;
+  z-index: 1;
+}
 .blue6 {
-  width: 100px; 
-  height: 100px; 
+  width: 200px; 
+  height: 200px; 
   background-color: blue;
-   
+  position: relative;
+  top: 50px;
+  right: 350px;
 }
 /* Do not make any changes below here */
 .activity {
