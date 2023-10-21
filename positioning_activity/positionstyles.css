@@ -160,8 +160,6 @@
   width: 100%; 
   height: 200px;
   background-color: gold;
-  text-wrap: balance;
-  
 } 
 .blue5 {
   width: 100%; 
@@ -174,6 +172,7 @@
   display: grid;
   grid-template-columns: repeat(5,1fr);
   width: 300px;
+  height: 400px;
 }
 .red6 {
   width: 200px; 
@@ -235,7 +234,6 @@
 .hint > div {
   display: none;
 }
-
 .hint input[type=checkbox] {
   position: absolute;
   width: 100%;
@@ -244,11 +242,9 @@
   z-index: 1;
   cursor: pointer;
 }
-
 .hint input[type=checkbox]:checked ~ div {
   display: block;
 }
-
 .hint i {
   position: absolute;
   transform: translate(-6px, 0);
