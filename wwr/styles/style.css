@@ -112,6 +112,9 @@ nav a {
     width: 80px;
     padding-top: 10px;
 }
+.logo {
+    width: 80px;
+}
 /* Color de los botones*/
 .book, .join {
     background-color: #2D7FC9;
