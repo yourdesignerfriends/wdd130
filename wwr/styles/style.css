@@ -213,6 +213,14 @@ main section img {
     box-shadow: 5px 5px 10px #000000;
 }
 @media screen and (max-width: 900px) {
+    .book {
+        background-color: #2D7FC9;
+        color: #ffffff;
+    }
+    .book:hover {
+        background-color: #ffffff;
+        color: #2D7FC9;
+    }
     header {
         background-color: #2D7FC9;
     } 
