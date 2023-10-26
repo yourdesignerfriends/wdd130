@@ -104,7 +104,6 @@ nav a {
     height: 725px;
     background-color: #EE3224; /* For browsers that do not support gradients */
     background-image: linear-gradient(90deg, #EE3224, #ffffff);
-    margin: 200px 0;
     grid-column: 1/11;
     grid-row: 4/9;
 }
