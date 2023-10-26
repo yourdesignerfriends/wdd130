@@ -49,13 +49,13 @@ main section {
     align-self: center;
 }
 /* Ajustes de la barra de navegacion */
-nav a:hover {
-    background-color: #EE3224;
-    color: #ffffff;
-}
 nav {
     display: flex;
     justify-content: space-around;
+}
+nav a:hover {
+    background-color: #EE3224;
+    color: #ffffff;
 }
 nav a {
     background-color: #ffffff;
