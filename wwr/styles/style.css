@@ -162,7 +162,6 @@ footer {
 }
 footer a {
     color: #000000;
-    text-align: center;
     text-decoration: none;
 }
 footer a:hover {
@@ -170,6 +169,7 @@ footer a:hover {
 }
 footer p {
     font-size: 1.2em;
+    text-align: center;
 }
 footer p a:hover {
     text-decoration: underline;
@@ -177,6 +177,7 @@ footer p a:hover {
 footer .social img {
     padding-top: 15px; 
 }
+/*Ajustes de imagenes*/
 .rivers-card{
     margin: 200px 0;
     grid-column: 2/4;
@@ -212,6 +213,7 @@ main section img {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #000000;
 }
+/* Responsive design*/
 @media screen and (max-width: 900px) {
     .book {
         background-color: #2D7FC9;
