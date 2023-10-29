@@ -78,7 +78,7 @@ p {
 }
 /* Size */
 .colors td{
-  width: 25%;
+  width: 10%;
   height: 3em;
 }
 /* Lista de colores */
@@ -87,6 +87,7 @@ p {
 }
 .secondary {
   background-color: var(--secondary-color);
+  color: #ffffff;
 }
 .accent1 {
   background-color: var(--accent1-color);
