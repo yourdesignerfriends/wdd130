@@ -14,15 +14,15 @@
   --heading-font: "Playfair Display";
   --paragraph-font: "Montserrat, Helvetica, sans-serif";
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #000000;  /* headlines on a white background */ 
-  --headline-color-on-color: #000000; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #000000; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #000000; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #ffffff;
-  --nav-link-color: #ffffff;
-  --nav-background-color: #000000;
-  --nav-hover-link-color: #000000;
-  --nav-hover-background-color: #ffffff;
+  --headline-color-on-white: var(--secondary-color); /* headlines on a white background */ 
+  --headline-color-on-color: var(--secondary-color); /* headlines on a colored background */ 
+  --paragraph-color-on-white: var(--secondary-color); /* paragraph text on a white background */ 
+  --paragraph-color-on-color: var(--primary-color); /* paragraph text on a colored background */ 
+  --paragraph-background-color: var(--secondary-color);
+  --nav-link-color: var(--primary-color);
+  --nav-background-color: var(--secondary-color);
+  --nav-hover-link-color: var(--secondary-color);
+  --nav-hover-background-color: var(--primary-color);
 }
 body {
   max-width: 1200px;
@@ -51,11 +51,12 @@ hr {
   margin: 35px 0;
   background: var(--secondary-color);
 }
+/* Titulo de la pagina */
 header {
   padding: 1em;
   text-align: center;
   color: var(--headline-color-on-color);
-  background-color: var(--paragraph-background-color);
+  background-color: var(--nav-link-color);
 }
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
