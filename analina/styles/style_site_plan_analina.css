@@ -5,12 +5,12 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #EBBFD7;
-  --secondary-color: #FBF0A4;
-  --third-color: #C4EDB3;
-  --accent1-color: #000000;
-  --accent2-color: #ffffff;
+  --primary-color: #ffffff;
+  --secondary-color: #000000;
+  --accent1-color: #EBBFD7;
+  --accent2-color: #FBF0A4;
   --accent3-color: #A5DEFF;
+  --accent4-color: #C4EDB3;
   --heading-font: "Playfair Display";
   --paragraph-font: "Montserrat, Helvetica, sans-serif";
 
@@ -22,23 +22,22 @@ Fonts are separated by a | */
   --headline-color-on-white: #000000;  /* headlines on a white background */ 
   --headline-color-on-color: #000000; /* headlines on a colored background */ 
   --paragraph-color-on-white: #000000; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-color-on-color: #000000; /* paragraph text on a colored background */ 
   --paragraph-background-color: #ffffff  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --nav-link-color: #ffffff;
+  --nav-background-color: #000000;
+  --nav-hover-link-color: #000000;
+  --nav-hover-background-color: #ffffff;
 }
 /*  Look around below...but DON'T CHANGE ANYTHING! */
-
 body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 4em;
   font-size: 18px;
   text-align: center;
-  color: var(--accent1-color);
-  background-image: linear-gradient(90deg, var(--primary-color), var(--secondary-color), var(--accent3-color), var(--third-color));
+  color: var(--secondary-color);
+  background-image: linear-gradient(90deg, var(--accent1-color), var(--accent2-color), var(--accent3-color), var(--accent4-color));
 }
 img {
   display: block;
@@ -56,7 +55,7 @@ h2 {
 hr {
   height: 3px;
   margin: 35px 0;
-  background: var(--accent1-color);
+  background: var(--secondary-color);
 }
 header {
   padding: 1em;
@@ -80,13 +79,12 @@ p {
   text-align: center;
 }
 .colors th {
-  background-color: #999;
+  background-color: #ffffff;
 }
 .colors td{
   width: 25%;
   height: 3em;
 }
-
 .primary {
   background-color: var(--primary-color);
 }
@@ -96,8 +94,14 @@ p {
 .accent1 {
   background-color: var(--accent1-color);
 }
-.accent2{
+.accent2 {
   background-color: var(--accent2-color);
+}
+.accent3 {
+  background-color: var(--accent3-color);
+}
+.accent4 {
+  background-color: var(--accent4-color);
 }
 
 p.colored {
@@ -183,5 +187,5 @@ nav a:hover {
 section {
   padding: 1em;
   text-align: center;
-  background-color: var(--accent2-color);
+  background-color: var(--primary-color);
 }
