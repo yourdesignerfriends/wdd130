@@ -151,18 +151,21 @@ nav a:hover {
 }
 .sm-home {
   grid-area: home;
-  background-color: #ccc;
+  background-color: var(--secondary-color);
   line-height: 3em;
+  color: var(--primary-color);
 }
 .sm-page2 {
   grid-area: page2;
-  background-color: #ccc;
+  background-color: var(--secondary-color);
   line-height: 3em;
+  color: var(--primary-color);
 }
 .sm-page3 {
   grid-area: page3;
-  background-color: #ccc;
+  background-color: var(--secondary-color);
   line-height: 3em;
+  color: var(--primary-color);
 }
 
 .top {
