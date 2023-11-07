@@ -6,9 +6,9 @@ body {
 }
 .contenedor {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-template-rows: repeat(3,1fr);
-  max-width: 400px;
+  grid-template-columns: 170px, 170px, 170px;
+  grid-template-rows: 200px, 400px, 100px;
+  max-width: 510px;
   background-color: #ffffff;
   border-radius: 30px;
   overflow: hidden;
@@ -25,13 +25,37 @@ body {
   grid-column: 1/4;
   grid-row: 2/3;
   text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
 }
-h1, h2, h3, h4, h5, h6 {
-  font-family: montserrat;
+
+h1 {
+  font-family: "montserrat";
   color: #000000;
 }
+h3 {
+  font-family: "montserrat";
+  color: gray;
+}
 p {
-  font-family: var(--paragraph-font);
-  color: var(--paragraph-color-on-white);
-  padding: 1em;
+  font-family: "playfair";
+  color: rgb(57, 130, 255)
+}
+.read {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  background-color: rgb(57, 130, 255);
+  color: #ffffff;
+}
+.views {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  background-color: rgb(57, 130, 255);
+  color: #ffffff;
+}
+.comment {
+  grid-column: 3/4;
+  grid-row: 3/4;
+  background-color: rgb(57, 130, 255);
+  color: #ffffff;
 }
