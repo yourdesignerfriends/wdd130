@@ -34,6 +34,9 @@ header {
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
+#caption-msg {
+    text-align: center;
+}
 .button-box {
     text-align: center;
 }
@@ -126,6 +129,22 @@ nav a {
 .book:hover, .join:hover {
     background-color: #2D7FC9;
     color: #ffffff;
+    border-radius: 5px;
+}
+.river {
+    background-color: #2D7FC9;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-family: Oswald, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.river:hover {
+    background-color: #ffffff;
+    color: #2D7FC9;
     border-radius: 5px;
 }
 /* Esto es el parrafo que esta coloreado*/
