@@ -224,11 +224,6 @@ main section img {
     margin: 50px 0;
     color: #EE3224;
 }
-.essential-image {
-    grid-column: 5/6;
-    grid-row: 5/11;
-    padding: 10px;
-}
 .caption-msg-2 {
     text-align: center;
     grid-column: 2/10;
