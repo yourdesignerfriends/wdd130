@@ -221,6 +221,8 @@ main section img {
     text-align: center;
     grid-column: 2/10;
     grid-row: 1/2;
+    margin: 50px 0;
+    color: #EE3224;
 }
 .skykomish-card{
     margin: 50px 0;
@@ -292,7 +294,6 @@ main section img {
     }
     .caption-msg h2 {
         font-size: 25px;
-        color: #000000;
         padding-top: 30px;
     }
     .rivers-card, .camping-card, .rapids-card { 
