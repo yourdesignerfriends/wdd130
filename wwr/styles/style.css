@@ -131,7 +131,7 @@ nav a {
     color: #ffffff;
     border-radius: 5px;
 }
-.river {
+.more-button {
     background-color: #2D7FC9;
     color: #ffffff;
     text-align: center;
@@ -142,7 +142,7 @@ nav a {
     margin-top: 50px;
     border-radius: 5px;
 }
-.river:hover {
+.more-button:hover {
     background-color: #ffffff;
     color: #2D7FC9;
     border-radius: 5px;
@@ -196,6 +196,21 @@ footer .social img {
     padding-top: 15px; 
 }
 /*Ajustes de imagenes*/
+.skykomish-card{
+    margin: 200px 0;
+    grid-column: 2/4;
+    grid-row: 2/3;
+} 
+.leavenworth-card{
+    margin: 200px 0;
+    grid-column: 5/7;
+    grid-row: 2/3;
+} 
+.wenatchee-card {
+    margin: 200px 0;
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
 .rivers-card{
     margin: 200px 0;
     grid-column: 2/4;
