@@ -224,6 +224,24 @@ main section img {
     margin: 50px 0;
     color: #EE3224;
 }
+.essential-image {
+    grid-column: 5/6;
+    grid-row: 5/11;
+    padding: 10px;
+}
+.caption-msg-2 {
+    text-align: center;
+    grid-column: 2/10;
+    grid-row: 4/5;
+    margin: 50px 0;
+    color: #EE3224;
+}
+.river-essentials {
+    grid-column: 7/10 ;
+    grid-row: 5/10;
+    padding: 20px;
+    text-align: left;
+}
 .skykomish-card{
     margin: 50px 0;
     grid-column: 2/4;
@@ -296,6 +314,10 @@ main section img {
         font-size: 25px;
         padding-top: 30px;
     }
+    .caption-msg-2 h2 {
+        font-size: 25px;
+        padding-top: 30px;
+    }
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
         width: 60%;
@@ -316,5 +338,8 @@ main section img {
         background-color: #EE3224; /* For browsers that do not support gradients */
         background-image: linear-gradient(90deg, #EE3224, #ffffff);
         margin-top: 25px;
+    }
+    .river-essentials {
+        text-align: center;
     }
 }
