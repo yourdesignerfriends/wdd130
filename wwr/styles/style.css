@@ -229,7 +229,7 @@ main section img {
     color: #EE3224;
 }
 .river-essentials {
-    grid-column: 6/11;
+    grid-column: 6/10;
     grid-row: 5/11;
     padding: 20px;
     text-align: left;
@@ -244,7 +244,7 @@ main section img {
     color: #2D7FC9;
 }
 .image-essentials {
-    grid-column: 1/6;
+    grid-column: 2/6;
     grid-row: 5/11;
     padding: 20px;
     align-self: center;
