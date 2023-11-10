@@ -212,13 +212,8 @@ main section img {
     box-shadow: 5px 5px 10px #000000;
 }
 /*Specific for the Trips Page Style*/
-.image-essentials {
-    grid-column: 2/6;
-    grid-row: 5/11; 
-}
 .image-e {
     width: 100%;
-    text-align: center;
     padding: 20px;
 }
 .trip-grid{
@@ -226,25 +221,34 @@ main section img {
     grid-template-columns: repeat(10,1fr);
 }
 .caption-msg {
-    text-align: center;
     grid-column: 2/10;
     grid-row: 1/2;
     margin: 50px 0;
     color: #EE3224;
 }
 .caption-msg-2 {
-    text-align: center;
     grid-column: 2/10;
     grid-row: 4/5;
     margin: 50px 0;
     color: #EE3224;
 }
 .river-essentials {
-    grid-column: 7/10 ;
-    grid-row: 5/10;
+    grid-column: 6/11;
+    grid-row: 5/11;
     padding: 20px;
     text-align: left;
-    width: 100%;
+}
+.negrita {
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+}
+.negrita:hover {
+    color: #2D7FC9;
+}
+.image-essentials {
+    grid-column: 1/6;
+    grid-row: 5/11; 
 }
 .skykomish-card{
     margin: 50px 0;
@@ -342,9 +346,5 @@ main section img {
         background-color: #EE3224; /* For browsers that do not support gradients */
         background-image: linear-gradient(90deg, #EE3224, #ffffff);
         margin-top: 25px;
-    }
-    .river-essentials {
-        text-align: center;
-        width: 80%;
     }
 }
