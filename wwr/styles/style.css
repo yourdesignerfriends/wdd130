@@ -232,7 +232,7 @@ main section img {
     margin: 50px 0;
     color: #EE3224;
 }
-.river-essentials {
+#river-essentials {
     grid-column: 6/11;
     grid-row: 5/11;
     padding: 20px;
@@ -246,7 +246,7 @@ main section img {
 .negrita:hover {
     color: #2D7FC9;
 }
-.image-essentials {
+#image-essentials {
     grid-column: 1/6;
     grid-row: 5/11; 
 }
