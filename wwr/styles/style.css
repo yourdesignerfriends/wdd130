@@ -221,12 +221,14 @@ main section img {
     grid-row: 1/2;
     margin: 50px 0;
     color: #EE3224;
+    box-shadow: 5px 5px 10px #000000;
 }
 .caption-msg-2 {
     grid-column: 2/10;
     grid-row: 4/5;
     margin: 50px 0;
     color: #EE3224;
+    box-shadow: 5px 5px 10px #000000;
 }
 .river-essentials {
     grid-column: 6/10;
@@ -251,6 +253,7 @@ main section img {
 }
 .image-e {
     width: 100%;
+    box-shadow: 5px 5px 10px #000000;
 }
 .skykomish-card{
     margin: 50px 0;
