@@ -233,6 +233,7 @@ main section img {
     grid-row: 5/11;
     padding: 20px;
     text-align: left;
+    align-self: center;
 }
 .negrita {
     font-weight: bold;
