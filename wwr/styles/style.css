@@ -219,6 +219,7 @@ main section img {
 .image-e {
     width: 100%;
     text-align: center;
+    padding: 20px;
 }
 .trip-grid{
     display: grid;
@@ -344,5 +345,6 @@ main section img {
     }
     .river-essentials {
         text-align: center;
+        width: 80%;
     }
 }
