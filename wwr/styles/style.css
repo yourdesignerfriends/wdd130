@@ -212,10 +212,6 @@ main section img {
     box-shadow: 5px 5px 10px #000000;
 }
 /*Specific for the Trips Page Style*/
-.image-e {
-    width: 100%;
-    padding: 20px;
-}
 .trip-grid{
     display: grid;
     grid-template-columns: repeat(10,1fr);
@@ -248,7 +244,12 @@ main section img {
 }
 .image-essentials {
     grid-column: 1/6;
-    grid-row: 5/11; 
+    grid-row: 5/11;
+    padding: 20px;
+    align-self: center;
+}
+.image-e {
+    width: 100%;
 }
 .skykomish-card{
     margin: 50px 0;
