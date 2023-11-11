@@ -325,11 +325,13 @@ main section img {
     }
     .caption-msg h2 {
         font-size: 25px;
-        padding-top: 30px;
+        padding: 5px;
+        box-shadow: none;
     }
     .caption-msg-2 h2 {
         font-size: 25px;
-        padding-top: 30px;
+        padding: 5px;
+        box-shadow: none;
     }
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
