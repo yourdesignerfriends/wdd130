@@ -326,11 +326,15 @@ main section img {
     .caption-msg h2 {
         font-size: 25px;
         padding: 5px;
-        box-shadow: none;
     }
     .caption-msg-2 h2 {
         font-size: 25px;
         padding: 5px;
+    }
+    .caption-msg {
+        box-shadow: none;
+    }
+    .caption-msg-2 {
         box-shadow: none;
     }
     .rivers-card, .camping-card, .rapids-card { 
