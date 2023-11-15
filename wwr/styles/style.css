@@ -288,7 +288,6 @@ main section img {
 }
 /* Feedback */
 #feedback {
-    background-color: #ffffff;
     padding: 10px;
     text-align: center;
     /* make this element invisible until we are ready for it */
