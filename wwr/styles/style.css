@@ -330,11 +330,11 @@ input, textarea {
     width: 300px;
     box-sizing: border-box;
     /* Match form field borders */
-    border: 1px solid #999;
+    border: 1px solid #EE3224;
 }
 input:focus, textarea:focus {
     /* Additional highlight for focused elements */
-    border-color: #000;
+    border-color: #000000;
 }
 textarea {
     /* Align multiline text fields with their labels */
