@@ -41,6 +41,10 @@ body {
     color: var(--secondary-color);
     background-image: linear-gradient(90deg, var(--accent1-color), var(--accent2-color), var(--accent3-color), var(--accent4-color));
 }
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
 header {
     background-color:var(--primary-color);
     display: grid;
