@@ -73,3 +73,12 @@ nav a {
     font-family: var(--heading-font);
     padding: 35px;
 }
+@media screen and (max-width: 900px) {
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+}
