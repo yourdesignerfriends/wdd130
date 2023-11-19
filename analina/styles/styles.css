@@ -71,6 +71,60 @@ nav a {
     font-family: var(--heading-font);
     padding: 35px;
 }
+.main-about-me {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(10,1fr);
+    padding: 15px;
+}
+.main-1-element-about-me{
+    background-color: var(--primary-color);
+    grid-column: 1/3;
+    grid-row: 1/3;
+    padding: 10px;
+}
+.main-2-element-about-me{
+    background-color: var(--primary-color);
+    grid-column: 3/5;
+    grid-row: 1/3;
+    padding: 10px;
+}
+.main-3-element-about-me{
+    grid-column: 1/5;
+    grid-row: 3/6;
+    align-self: center;
+    justify-self: center;
+    padding: 10px;
+}
+.img-about-me {
+    max-width: 300px;
+    border-radius:50%;
+    background-color: var(--primary-color);
+  }
+.main-4-element-about-me{
+    background-color: var(--primary-color);
+    grid-column: 1/3;
+    grid-row: 6/9;
+    padding: 10px;
+}
+.main-5-element-about-me{
+    background-color: var(--primary-color);
+    grid-column: 3/4;
+    grid-row: 6/9;
+    padding: 10px;
+}
+.main-6-element-about-me{
+    background-color: var(--primary-color);
+    grid-column: 4/5;
+    grid-row: 6/9;
+    padding: 10px;
+}
+.main-7-element-about-me{
+    background-color: var(--primary-color);
+    grid-column: 1/3;
+    grid-row: 9/11;
+    padding: 10px;
+}
 footer {
     background-color: var(--primary-color);
     margin-top: 50px;
