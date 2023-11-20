@@ -7,14 +7,14 @@ section {
     border: 1px solid;
 }
 .block1 {
-
+    margin: 50px 100px 0px;
 }
 .block2 {
-    
+    margin: 0px 300px;  
 }
 .block3 {
-    
+    margin: 0px 500px; 
 }
 .block4 {
-    
+    margin: 0px 250px; 
 }
