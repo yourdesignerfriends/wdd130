@@ -1,1 +1,205 @@
-
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Playfair+Display&display=swap");
+:root {
+  /* Colors Palette */
+  --primary-color: #ffffff;
+  --secondary-color: #000000;
+  --accent1-color: #ebbfd7;
+  --accent2-color: #fbf0a4;
+  --accent3-color: #c4edb3;
+  --accent4-color: #a5deff;
+  /* fonts */
+  --heading-font: "Playfair Display";
+  --paragraph-font: "Montserrat, Helvetica, sans-serif";
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: var(--secondary-color); /* headlines on a white background */ 
+  --headline-color-on-color: var(--secondary-color); /* headlines on a colored background */ 
+  --paragraph-color-on-white: var(--secondary-color); /* paragraph text on a white background */ 
+  --paragraph-color-on-color: var(--primary-color); /* paragraph text on a colored background */ 
+  --paragraph-background-color: var(--secondary-color);
+  --nav-link-color: var(--primary-color);
+  --nav-background-color: var(--secondary-color);
+  --nav-hover-link-color: var(--secondary-color);
+  --nav-hover-background-color: var(--primary-color);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+}
+p {
+    font-family: var(--paragraph-font);
+    color: var(--paragraph-color-on-white);
+    padding: 1em;
+}
+body {
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: var(--accent1-color);
+    background-image: linear-gradient(90deg, var(--accent1-color), var(--accent2-color), var(--accent3-color), var(--accent4-color));
+}
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+header {
+    background-color:var(--primary-color);
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+#logo_link {   
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.logo {
+    width: 80px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+nav a {
+    text-align: center;
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-family: var(--heading-font);
+    padding: 35px;
+}
+.main-about-me {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 15px;
+}
+.main-1-element-about-me{
+    background-color: var(--primary-color);
+    grid-column: 1/3;
+    grid-row: 1/2;
+    margin: 10px;
+}
+.main-2-element-about-me{
+    background-color: var(--primary-color);
+    grid-column: 3/5;
+    grid-row: 1/2;
+    margin: 10px;
+}
+main p {
+    font-size: 1.2em;
+    text-align: center;
+}
+main p a {
+    color: #000000;
+    text-decoration: none;
+}
+main p a:hover {
+    color: #ffffff;
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.main-3-element-about-me{
+    grid-column: 1/5;
+    grid-row: 2/3;
+    align-self: center;
+    justify-self: center;
+    margin: 10px;
+}
+.img-about-me {
+    max-width: 300px;
+    border-radius:50%;
+    background-color: var(--primary-color);
+    margin: 10px;
+  }
+.main-4-element-about-me{
+    background-color: var(--primary-color);
+    grid-column: 1/3;
+    grid-row: 3/6;
+    margin: 10px;
+}
+.main-5-element-about-me{
+    background-color: var(--primary-color);
+    grid-column: 3/4;
+    grid-row: 3/7;
+    margin: 10px;
+}
+.main-6-element-about-me{
+    background-color: var(--primary-color);
+    grid-column: 4/5;
+    grid-row: 3/7;
+    margin: 10px;
+}
+.main-7-element-about-me{
+    background-color: var(--primary-color);
+    grid-column: 1/3;
+    grid-row: 6/7;
+    margin: 10px;
+    overflow: hidden;
+}
+.img-gatito {
+    width: 100%;
+  }
+footer {
+    background-color: var(--primary-color);
+    margin-top: 50px;
+    align-items: center;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.footer-1-element {
+    grid-column: 1/3;
+}
+.footer-2-element {
+    grid-column: 3/4;
+}
+.footer-3-element {
+    grid-column: 4/5;
+}
+.footer-4-element {
+    grid-column: 5/6;
+}
+.footer-5-element {
+    grid-column: 6/7;
+}
+.social-icon {
+    width: 80px; 
+}
+footer p {
+    font-size: 1.2em;
+    text-align: center;
+}
+footer p a {
+    color: #000000;
+    text-decoration: none;
+}
+footer p a:hover {
+    color: #ffffff;
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 15px;
+}
+@media screen and (max-width: 900px) {
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: var(--primary-color);
+        background-size: 350px auto;
+        border-top: var(--secondary-color);
+    }
+}
