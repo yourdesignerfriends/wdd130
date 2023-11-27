@@ -173,6 +173,7 @@ footer p a:hover {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     align-items: center;
+    justify-self: center;
 }
 .main-1-element-home {
     grid-row: 1/2;
@@ -196,33 +197,33 @@ footer p a:hover {
 .main-3-element-home {
     grid-row: 3/4;
     grid-column: 1/2;
-    margin: 20px;
     padding: 10px;
+    background-color: white;
 }
 .main-4-element-home {
     grid-row: 3/4;
     grid-column: 2/3;
-    margin: 20px;
     padding: 10px;
+    background-color: white;
+
+
 }
 .main-5-element-home {
     grid-row: 3/4;
     grid-column: 3/4;
-    margin: 20px;
-    background-color: var(--primary-color);
     padding: 10px;
+    background-color: white;
+
 }
 .main-6-element-home {
     grid-row: 4/5;
     grid-column: 1/2;
-    margin: 20px;
     background-color: var(--primary-color);
     padding: 10px;
 }
 .main-7-element-home {
     grid-row: 4/5;
     grid-column: 2/3;
-    margin: 20px;
     background-color: var(--primary-color);
     padding: 10px;
 
@@ -230,7 +231,6 @@ footer p a:hover {
 .main-8-element-home {
     grid-row: 4/5;
     grid-column: 3/4;
-    margin: 20px;
     background-color: var(--primary-color);
     padding: 10px;
 }
@@ -238,19 +238,16 @@ footer p a:hover {
     grid-row: 5/6;
     grid-column: 1/2;
     background-color: var(--primary-color);
-    margin: 20px;
 }
 .main-10-element-home {
     grid-row: 5/6;
     grid-column: 2/3;
     background-color: var(--primary-color);
-    margin: 20px;
 }
 .main-11-element-home {
     grid-row: 5/6;
     grid-column: 3/4;
     background-color: var(--primary-color);
-    margin: 20px;
 }
 main p {
     font-size: 1.2em;
