@@ -187,7 +187,6 @@ footer p a:hover {
 .main-home{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(5,1fr);
     align-items: center;
 }
 .main-1-element-home {
@@ -222,36 +221,43 @@ footer p a:hover {
     grid-row: 3/4;
     grid-column: 3/4;
     margin: 20px;
+    background-color: var(--primary-color);
 }
 .main-6-element-home {
     grid-row: 4/5;
     grid-column: 1/2;
     margin: 20px;
+    background-color: var(--primary-color);
 }
 .main-7-element-home {
     grid-row: 4/5;
     grid-column: 2/3;
     margin: 20px;
+    background-color: var(--primary-color);
 }
 .main-8-element-home {
     grid-row: 4/5;
     grid-column: 3/4;
     margin: 20px;
+    background-color: var(--primary-color);
 }
 .main-9-element-home {
     grid-row: 5/6;
     grid-column: 1/2;
-
+    background-color: var(--primary-color);
+    margin: 20px;
 }
 .main-10-element-home {
     grid-row: 5/6;
     grid-column: 2/3;
-
+    background-color: var(--primary-color);
+    margin: 20px;
 }
 .main-11-element-home {
     grid-row: 5/6;
     grid-column: 3/4;
-
+    background-color: var(--primary-color);
+    margin: 20px;
 }
 @media screen and (max-width: 900px) {
     nav, footer {
