@@ -192,21 +192,18 @@ footer p a:hover {
     background-color: var(--primary-color);
     margin: 20px;
     padding: 10px;
-
 }
 .main-3-element-home {
     grid-row: 3/4;
     grid-column: 1/2;
     margin: 20px;
     padding: 10px;
-
 }
 .main-4-element-home {
     grid-row: 3/4;
     grid-column: 2/3;
     margin: 20px;
     padding: 10px;
-
 }
 .main-5-element-home {
     grid-row: 3/4;
@@ -221,7 +218,6 @@ footer p a:hover {
     margin: 20px;
     background-color: var(--primary-color);
     padding: 10px;
-
 }
 .main-7-element-home {
     grid-row: 4/5;
@@ -237,7 +233,6 @@ footer p a:hover {
     margin: 20px;
     background-color: var(--primary-color);
     padding: 10px;
-
 }
 .main-9-element-home {
     grid-row: 5/6;
