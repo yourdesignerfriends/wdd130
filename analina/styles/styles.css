@@ -275,4 +275,8 @@ main p a:hover {
         background-size: 350px auto;
         border-top: var(--secondary-color);
     }
+    .main-home {
+        display: block;
+        height: auto;
+    }
 }
