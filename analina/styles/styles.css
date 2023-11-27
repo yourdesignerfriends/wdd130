@@ -88,21 +88,6 @@ nav a {
     grid-row: 1/2;
     margin: 10px;
 }
-main p {
-    font-size: 1.2em;
-    text-align: center;
-}
-main p a {
-    color: #000000;
-    text-decoration: none;
-}
-main p a:hover {
-    color: #ffffff;
-    background-color: #000000;
-    padding: 10px;
-    border-radius: 15px;
-    text-decoration: none;
-}
 .main-3-element-about-me{
     grid-column: 1/5;
     grid-row: 2/3;
@@ -192,11 +177,10 @@ footer p a:hover {
 .main-1-element-home {
     grid-row: 1/2;
     grid-column: 1/4;
-    margin: 20px;
+    margin-top: 20px;
 }
 .img-home-page {
     border-radius: 50%;
-    box-shadow: 1px 1px 2px #000000, 0 0 1em #000000, 0 0 0.2em #000000;
 }
 .img-projects {
     width: 100%;
@@ -258,6 +242,20 @@ footer p a:hover {
     grid-column: 3/4;
     background-color: var(--primary-color);
     margin: 20px;
+}
+main p {
+    font-size: 1.2em;
+    text-align: center;
+}
+main p a {
+    color: #000000;
+    text-decoration: none;
+}
+main p a:hover {
+    color: #ffffff;
+    background-color: #000000;
+    padding: 10px;
+    text-decoration: none;
 }
 @media screen and (max-width: 900px) {
     nav, footer {
