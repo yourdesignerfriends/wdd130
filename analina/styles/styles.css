@@ -71,6 +71,21 @@ nav a {
     font-family: var(--heading-font);
     padding: 35px;
 }
+footer p, main p {
+    font-size: 1.2em;
+    text-align: center;
+}
+footer p a, main p a {
+    color: #000000;
+    text-decoration: none;
+}
+footer p a:hover, main p a:hover {
+    color: #ffffff;
+    background-color: #000000;
+    padding: 15px;
+    text-decoration: none;
+}
+/* About me page */
 .main-about-me {
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -155,19 +170,6 @@ footer {
 .social-icon {
     width: 80px; 
 }
-footer p {
-    font-size: 1.2em;
-    text-align: center;
-}
-footer p a {
-    color: #000000;
-    text-decoration: none;
-}
-footer p a:hover {
-    color: #ffffff;
-    background-color: #000000;
-    padding: 15px;
-}
 /* home page styles */
 .main-home{
     display: grid;
@@ -201,17 +203,13 @@ footer p a:hover {
     background-color: var(--primary-color);
     margin: 1px;
     padding: 10px;
-
 }
 .main-6-element-home {
     grid-row: 4/5;
     grid-column: 1/2;
     background-color: var(--primary-color);
     margin: 1px;
-    padding: 10px;
-
-
-    
+    padding: 10px;   
 }
 .main-9-element-home {
     grid-row: 5/6;
@@ -219,8 +217,6 @@ footer p a:hover {
     background-color: var(--primary-color);
     margin: 1px;
     padding: 10px;
-
-
 }
 /* My Hair Foto */
 .main-4-element-home {
@@ -229,8 +225,6 @@ footer p a:hover {
     background-color: var(--primary-color);
     margin: 1px;
     padding: 10px;
-
-
 }
 .main-7-element-home {
     grid-row: 4/5;
@@ -238,8 +232,6 @@ footer p a:hover {
     background-color: var(--primary-color);
     margin: 1px;
     padding: 10px;
-
-
 }
 .main-5-element-home {
     grid-row: 3/4;
@@ -247,8 +239,6 @@ footer p a:hover {
     background-color: var(--primary-color);
     margin: 1px;
     padding: 10px;
-
-
 }
 /* Your Design Foto */
 .main-8-element-home {
@@ -257,8 +247,6 @@ footer p a:hover {
     background-color: var(--primary-color);
     margin: 1px;
     padding: 10px;
-
-
 }
 .main-10-element-home {
     grid-row: 5/6;
@@ -266,8 +254,6 @@ footer p a:hover {
     background-color: var(--primary-color);
     margin: 1px;
     padding: 10px;
-
-
 }
 .main-11-element-home {
     grid-row: 5/6;
@@ -275,23 +261,6 @@ footer p a:hover {
     background-color: var(--primary-color);
     margin: 1px;
     padding: 10px;
-
-
-}
-
-main p {
-    font-size: 1.2em;
-    text-align: center;
-}
-main p a {
-    color: #000000;
-    text-decoration: none;
-}
-main p a:hover {
-    color: #ffffff;
-    background-color: #000000;
-    padding: 10px;
-    text-decoration: none;
 }
 @media screen and (max-width: 900px) {
     nav, footer {
