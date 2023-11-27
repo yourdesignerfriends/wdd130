@@ -181,8 +181,17 @@ footer p a {
 footer p a:hover {
     color: #ffffff;
     background-color: #000000;
-    padding: 10px;
-    border-radius: 15px;
+    padding: 15px;
+}
+.img-home-page {
+    border-radius: 50%;
+    margin: 40px;
+    box-shadow: 1px 1px 2px #000000, 0 0 1em #000000, 0 0 0.2em #000000;
+
+}
+.main-2-element-home {
+    background-color: var(--primary-color);
+    padding: 20px;
 }
 @media screen and (max-width: 900px) {
     nav, footer {
