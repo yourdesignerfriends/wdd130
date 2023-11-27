@@ -199,7 +199,7 @@ footer p a:hover {
     box-shadow: 1px 1px 2px #000000, 0 0 1em #000000, 0 0 0.2em #000000;
 }
 .img-projects {
-    width: 80%;
+    width: 100%;
 }
 .main-2-element-home {
     grid-row: 2/3;
