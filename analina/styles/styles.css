@@ -72,15 +72,6 @@ nav a {
     padding: 35px;
 }
 /*...........................Footer.................................*/
-footer {
-    background-color: var(--primary-color);
-    margin: 1px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    padding-bottom: 40px;
-}
 footer p {
     font-size: 1.2em;
     text-align: center;
@@ -94,15 +85,38 @@ footer p a:hover {
     background-color: #000000;
     padding: 15px;
 }
+.social{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 .social-icon {
     width: 80px;
     padding-top: 10px;
 }
-/*........................Home Page Styles.............................*/
-.copy {
+.footer-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.footer-1{
+    grid-column: 1/2;
     background-color: var(--primary-color);
     margin: 1px;
+    padding: 10px;
 }
+.footer-2{
+    grid-column: 2/3;
+    background-color: var(--primary-color);
+    margin: 1px;
+    padding: 40px;
+}
+.footer-3{
+    grid-column: 3/4;
+    background-color: var(--primary-color);
+    margin: 1px;
+    padding: 10px;
+}
+/*........................Home Page Styles.............................*/
 .main-home{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -267,5 +281,12 @@ main a:hover {
     }
     nav {
         flex-direction: column;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-2{
+        padding: 10px;
     }
 }
