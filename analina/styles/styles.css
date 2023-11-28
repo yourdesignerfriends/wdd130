@@ -32,7 +32,7 @@ p {
     padding: 1em;
 }
 body {
-    font-size: 22px;
+    font-size: 18px;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -295,6 +295,5 @@ main a:hover {
     .header-grid {
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
     }
 }
