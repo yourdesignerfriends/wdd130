@@ -45,7 +45,6 @@ body {
 }
 .header-grid {
     display: grid;
-    text-wrap: wrap;
     grid-template-columns: max-content;
 }
 .header-1 {
