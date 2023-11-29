@@ -264,11 +264,15 @@ main a:hover {
     background-color: var(--primary-color);
     margin: 1px;
 }
+.imagen-a {
+    display: flex;
+}
 .img-about-me {
     max-width: 300px;
-    overflow: hidden;
-    text-align: left;
-  }
+}
+.img-about-me-2 {
+    max-width: 40%;
+}
 .main-4-element-about-me{
     background-color: var(--primary-color);
     grid-column: 1/2;
