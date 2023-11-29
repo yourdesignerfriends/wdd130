@@ -272,6 +272,7 @@ main a:hover {
 }
 .img-about-me-2 {
     max-width: 40%;
+    align-self: center;
 }
 .main-4-element-about-me{
     background-color: var(--primary-color);
