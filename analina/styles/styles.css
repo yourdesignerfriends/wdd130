@@ -246,21 +246,9 @@ main a:hover {
 .main-about-me {
     display: grid;
 }
-.main-1-element-about-me{
-    background-color: var(--primary-color);
-    grid-column: 1/2;
-    grid-row: 1/2;
-    margin: 1px;
-}
-.main-2-element-about-me{
-    background-color: var(--primary-color);
-    grid-column: 2/4;
-    grid-row: 1/2;
-    margin: 1px;
-}
 .main-3-element-about-me{
     grid-column: 1/4;
-    grid-row: 2/3;
+    grid-row: 1/2;
     background-color: var(--primary-color);
     margin: 1px;
     background-image: conic-gradient(var(--accent4-color), var(--accent2-color), var(--accent4-color));
@@ -279,25 +267,25 @@ main a:hover {
 .main-4-element-about-me{
     background-color: var(--primary-color);
     grid-column: 1/2;
-    grid-row: 3/4;
+    grid-row: 2/3;
     margin: 1px;
 }
 .main-5-element-about-me{
     background-color: var(--primary-color);
     grid-column: 2/3;
-    grid-row: 3/5;
+    grid-row: 2/4;
     margin: 1px;
 }
 .main-6-element-about-me{
     background-color: var(--primary-color);
     grid-column: 3/4;
-    grid-row: 3/5;
+    grid-row: 2/4;
     margin: 1px;
 }
 .main-7-element-about-me{
     background-color: var(--primary-color);
     grid-column: 1/2;
-    grid-row: 4/5;
+    grid-row: 3/4;
     margin: 1px;
     overflow: hidden;
 }
