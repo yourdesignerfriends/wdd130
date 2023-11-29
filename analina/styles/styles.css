@@ -254,21 +254,17 @@ main a:hover {
     background-image: conic-gradient(var(--accent4-color), var(--accent2-color), var(--accent4-color));
 }
 .img-about-me {
-    max-width: 300px;
+    width: 40%;
     display: grid;
     margin: auto;
     margin-top: 30px;
-}
-.img-about-me-2 {
-    max-width: 40%;
-    align-self: center;
-    margin: auto;
 }
 .main-4-element-about-me{
     background-color: var(--primary-color);
     grid-column: 1/4;
     grid-row: 2/3;
     margin: 1px;
+    text-align: center;
 }
 .main-5-element-about-me{
     background-color: var(--primary-color);
