@@ -5,82 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://kit.fontawesome.com/474606cb71.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="content">
-        <header class="header-grid">
-            <div class="header-1">
-                <nav>
-                    <a class="a-1" href="index.html">Analina Del Vecchio</a>
-                    <a class="a-2" href="about-me.html">About Me</a>
-                    <a class="a-3" href="contact.html">Contact</a>
-                </nav>
-            </div>
-            <div class="header-2">
-                <a id="logo_link" href="index.html"><img class="logo" src="images/cookie.png" alt="Analina Logo"></a>
-            </div>   
+        <header>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html" class="active">Analina</a>
+                <a href="about-me.html">About Me</a>
+                <a href="contact.html">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
+              <script>
+                function myFunction() {
+                  var x = document.getElementById("myTopnav");
+                  if (x.className === "topnav") {
+                    x.className += " responsive";
+                  } else {
+                    x.className = "topnav";
+                  }
+                }
+            </script>
         </header>
-        <main class="main-contact">
-            <div class="main-1-element-contact">
-                <h1>Contact</h1>
-            </div>
-            <div class="main-2-element-contact">
-                <p><a href="mailto:yourdesignerfriends@gmail.com" target="_blank">Send me an email</a></p>
-            </div>
-            <div class="main-3-element-contact">
-                <form action="/my-handling-form-page" method="post">
-                    <ul>
-                        <li>
-                            <label for="name">Name:</label>
-                            <input type="text" id="name" name="user_name">
-                        </li>
-                        <li>
-                            <label for="mail">E-mail:</label>
-                            <input type="email" id="mail" name="user_mail">
-                        </li>
-                        <li>
-                            <label for="msg">Message:</label>
-                            <textarea id="msg" name="user_message"></textarea>
-                        </li>
-                        <li class="button">
-                            <button type="submit">Send your message</button>
-                        </li>
-                    </ul>
-                </form>
-                <div id="feedback"></div>
-                <script>
-                    // get the feedback div element so we can do something with it.
-                    const feedbackElement = document.getElementById('feedback');
-                    // get the form so we can read what was entered in it.
-                    const formElement = document.forms[0];
-                    // add a 'listener' to wait for a submission of our form. When that happens run the code below.
-                    formElement.addEventListener('submit', function(e) {
-                        // stop the form from doing the default action.
-                        e.preventDefault();
-                        // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
-                        feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message 🙂. We will get back with you as soon as possible!';
-                        // make the feedback element visible.
-                        feedbackElement.style.display = "block";
-                    });
-                </script>
-            </div>
-        </main>
-        <footer class="footer-grid">
-            <div class="footer-1">
-                <p><a href="site_plan_analina.html" target="_blank">Site Plan</a></p>
-            </div>
-            <div class="footer-2">
-                <div class="social">
-                    <a href="https://www.facebook.com/" target="_blank"><img class="social-icon" src="images/facebook.png" alt="fb icon"></a>
-                    <a href="https://github.com/" target="_blank"><img class="social-icon" src="images/github.png" alt="github icon"></a>
-                    <a href="https://www.instagram.com/" target="_blank"><img class="social-icon" src="images/instagram.png" alt="instagram icon"></a>
-                    <a href="mailto:yourdesignerfriends@gmail.com" target="_blank"><img class="social-icon" src="images/email.png" alt="email icon"></a>
-                </div>
-            </div>
-        </footer>
-        <div class="copy">
-            <p class="copy">&copy; 2023 - Analina Del Vecchio</p>
-        </div>
     </div>
 </body>
 </html>
