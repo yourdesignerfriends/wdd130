@@ -22,10 +22,12 @@
   --nav-hover-link-color: var(--secondary-color);
   --nav-hover-background-color: var(--primary-color);
 }
+/* Add color to the top navigation */
 .topnav {
     overflow: hidden;
     background-color: var(--primary-color);
-} 
+}
+/* Style the links inside the navigation bar */
 .topnav a {
     float: left;
     display: block;
@@ -34,15 +36,18 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-} 
+}
+/* Change the color of links on hover */
 .topnav a:hover {
     background-color: var(--secondary-color);
     color: var(--primary-color);
-} 
+}
+/* Add an active class to highlight the current page */
 .topnav a.active {
     background-color: var(--secondary-color);
     color: var(--primary-color);
 } 
+/* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
     display: none;
 }
