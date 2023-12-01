@@ -22,6 +22,10 @@
   --nav-hover-link-color: var(--secondary-color);
   --nav-hover-background-color: var(--primary-color);
 }
+.contact-main {
+    background-color: var(--primary-color);
+    padding: 50px;
+}
 /* Add color to the top navigation */
 .topnav {
     overflow: hidden;
