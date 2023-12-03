@@ -168,9 +168,6 @@ footer p a:hover {
     background-color: var(--secondary-color);
 }
 /*........................Home Page Styles.............................*/
-.imagen-main {
-    width: 60%;
-}
 .main-home{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -197,6 +194,9 @@ main a:hover {
     background-color: var(--primary-color);
     padding: 10px;
     margin: 1px;
+}
+.imagen-main {
+    width: 40%;
 }
 /* Titulo de la pagina */
 .main-2-element-home {
@@ -278,7 +278,7 @@ main a:hover {
 .main-about-me {
     display: grid;
 }
-.main-3-element-about-me{
+.main-1-element-about-me{
     grid-column: 1/4;
     grid-row: 1/2;
     background-color: var(--primary-color);
@@ -291,42 +291,19 @@ main a:hover {
     margin: auto;
     margin-top: 30px;
 }
-.main-4-element-about-me{
+.main-2-element-about-me{
     background-color: var(--primary-color);
     grid-column: 1/4;
     grid-row: 2/3;
     margin: 1px;
     text-align: center;
 }
-.main-5-element-about-me{
+.main-3-element-about-me{
     background-color: var(--primary-color);
     grid-column: 1/2;
     grid-row: 3/4;
     margin: 1px;
 }
-.main-6-element-about-me{
-    background-color: var(--primary-color);
-    grid-column: 2/3;
-    grid-row: 3/5;
-    margin: 1px;
-}
-.main-7-element-about-me{
-    background-color: var(--primary-color);
-    grid-column: 3/4;
-    grid-row: 3/5;
-    margin: 1px;
-}
-.main-8-element-about-me{
-    background-color: var(--primary-color);
-    grid-column: 1/2;
-    grid-row: 4/5;
-    margin: 1px;
-    overflow: hidden;
-}
-.img-gatito {
-    max-width: 300px;
-}
-
 @media screen and (max-width: 600px) {
     /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
     .topnav a:not(:first-child) {display: none;}
