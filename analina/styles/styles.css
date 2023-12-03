@@ -104,15 +104,6 @@ body {
     padding: 10px;
  
 }
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-    margin: 10px;
-} 
 .fa:hover {
     opacity: 0.7;
 }
@@ -120,21 +111,49 @@ body {
 .fa-facebook {
     background: var(--secondary-color);
     color: white;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 10px;
 }
 
 .fa-linkedin {
     background: var(--secondary-color);
     color: white;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 10px;
 }
   
 .fa-youtube {
     background: var(--secondary-color);
     color: white;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 10px;
 }
   
 .fa-instagram {
     background: var(--secondary-color);
     color: white;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 10px;
 }
 footer p {
     font-size: 1.2em;
@@ -333,9 +352,6 @@ main a:hover {
     }
     .footer-grid{
         display: flex;
-        flex-direction: column;
-    }
-    nav {
         flex-direction: column;
     }
 }
