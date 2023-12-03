@@ -68,6 +68,15 @@ body {
 .topnav .icon {
     display: none;
 }
+.logo {
+    width: 80px;
+}
+.logo-div {
+    background-color: var(--primary-color);
+    margin: 1px;
+    display: flex;
+    justify-content: center;
+}
 /*........................... Footer .................................*/
 .footer-grid {
     display: grid;  
