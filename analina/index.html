@@ -10,29 +10,30 @@
 <body>
     <div id="content">
         <header>
-            <div class="logo-div">
-                <p>Belive in</p>
-                <a href="index.html"><img class="logo" class="active" src="images/cookie.png" alt="cookie"></a>
-                <p>Yourself</p>
-            </div>
-            <div class="topnav" id="myTopnav">
-                <a href="index.html">Analina</a>
-                <a href="about-me.html">About Me</a>
-                <a href="contact.html">Contact</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                  <i class="fa fa-bars"></i>
-                </a>
-              </div>
-              <script>
-                function myFunction() {
-                  var x = document.getElementById("myTopnav");
-                  if (x.className === "topnav") {
-                    x.className += " responsive";
-                  } else {
-                    x.className = "topnav";
-                  }
-                }
-            </script>   
+            <header>
+                <div class="logo-div">
+                    <p>Belive in</p>
+                    <a href="index.html"><img class="logo" class="active" src="images/cookie.png" alt="cookie"></a>
+                    <p>Yourself</p>
+                </div>
+                <div class="topnav" id="myTopnav">
+                    <a href="index.html" class="active">Analina</a>
+                    <a href="about-me.html" class="active">About Me</a>
+                    <a href="contact.html" class="active">Contact</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                      <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+                <script>
+                    function myFunction() {
+                      var x = document.getElementById("myTopnav");
+                        if (x.className === "topnav") {
+                            x.className += " responsive";
+                        } else {
+                            x.className = "topnav";
+                        }
+                    }
+                </script>   
         </header>
         <main class="main-home">
             <div class="main-1-element-home">
