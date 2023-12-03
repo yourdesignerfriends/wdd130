@@ -22,38 +22,13 @@
   --nav-hover-link-color: var(--secondary-color);
   --nav-hover-background-color: var(--primary-color);
 }
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
 .contact-main {
     background-color: var(--primary-color);
     padding: 50px;
-}
-/* Add color to the top navigation */
-.topnav {
-    overflow: hidden;
-    background-color: var(--primary-color);
-}
-/* Style the links inside the navigation bar */
-.topnav a {
-    float: left;
-    display: block;
-    color: var(--secondary-color);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-/* Change the color of links on hover */
-.topnav a:hover {
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
-}
-/* Add an active class to highlight the current page */
-.topnav a.active {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-} 
-/* Hide the link that should open and close the topnav on small screens */
-.topnav .icon {
-    display: none;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
@@ -72,11 +47,31 @@ body {
     color: var(--accent1-color);
     background-image: linear-gradient(90deg, var(--accent1-color), var(--accent2-color), var(--accent3-color), var(--accent4-color));
 }
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
+/*...........................Navigation Var.................................*/
+.topnav {
+    overflow: hidden;
+    background-color: var(--primary-color);
 }
-
+.topnav a {
+    float: left;
+    display: block;
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+.topnav a.active {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+} 
+.topnav .icon {
+    display: none;
+}
 /*...........................Footer.................................*/
 .footer-grid {
     display: grid;  
