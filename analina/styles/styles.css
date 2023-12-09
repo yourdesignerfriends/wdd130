@@ -377,10 +377,10 @@ input[type=submit]:hover {
 }
 #feedback {
     padding: 10px;
-    text-align: center;
+    text-align: left;
     /* make this element invisible until we are ready for it */
     display: none;
-    font-family: Oswald, Helvetica, sans-serif;     
+    color: var(--secondary-color)
 }
 .moveDown {
     margin-top: 3em;
