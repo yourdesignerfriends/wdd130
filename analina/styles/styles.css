@@ -310,7 +310,7 @@ main a:hover {
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
-.contatc-element-1 {
+.contact-element-1 {
     grid-column: 1/2;
     background-color: var(--primary-color);
     margin: 1px;
