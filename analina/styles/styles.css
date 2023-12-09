@@ -375,6 +375,16 @@ input[type=submit]:hover {
     display: table;
     clear: both;
 }
+#feedback {
+    padding: 10px;
+    text-align: center;
+    /* make this element invisible until we are ready for it */
+    display: none;
+    font-family: Oswald, Helvetica, sans-serif;     
+}
+.moveDown {
+    margin-top: 3em;
+}
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
     .col-25, .col-75, input[type=submit] {
