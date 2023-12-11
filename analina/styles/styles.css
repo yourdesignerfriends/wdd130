@@ -296,10 +296,13 @@ main a:hover {
 }
 .main-3-element-about-me{
     background-color: var(--primary-color);
-    grid-column: 1/2;
+    grid-column: 1/4;
     grid-row: 3/4;
     margin: 1px;
     padding: 10px;
+}
+.main-3-element-about-me p {
+    text-align: left;
 }
 /*........................ Contact Page Styles .............................*/
 .contact-grid {
