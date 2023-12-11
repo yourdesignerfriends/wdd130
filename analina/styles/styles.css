@@ -76,6 +76,7 @@ body {
     margin: 1px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 /*........................... Footer .................................*/
 .footer-grid {
